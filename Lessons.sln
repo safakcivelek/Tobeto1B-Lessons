@@ -6,10 +6,13 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CSharp", "CSharp", "{AEDB19C2-79FA-4A2E-A9EA-4651F4173CFB}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SQL", "SQL", "{C19EFB4C-9F42-425F-B852-27B14D6E26BB}"
+	ProjectSection(SolutionItems) = preProject
+		TextFile1.txt = TextFile1.txt
+	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Intro", "CSharp\Intro\Intro.csproj", "{3D3A481E-8653-4854-A71F-31C391401F7B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Intro", "CSharp\Intro\Intro.csproj", "{3D3A481E-8653-4854-A71F-31C391401F7B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Intro", "SQL\Intro\Intro.csproj", "{B6C41F61-8754-4263-B66E-EBA7A71A9C55}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Intro", "SQL\Intro\Intro.csproj", "{B6C41F61-8754-4263-B66E-EBA7A71A9C55}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
