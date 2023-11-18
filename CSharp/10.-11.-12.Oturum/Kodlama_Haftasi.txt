@@ -1,1 +1,2 @@
-10/11/12 Oturumlarda ders işlenmedi ekip içi kodlamalar yapıldı.
+10/11/12 Oturumlarda ders işlenmedi. 
+TobetoCourseAcademy adlı katmanlı proje üzerinde pair ile birlikte kodlamalar yapıldı.
