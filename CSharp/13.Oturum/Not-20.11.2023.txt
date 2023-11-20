@@ -1,0 +1,3 @@
+// 13. oturumda pair olarak TobetoCourseAcademy adlı proje üzerinde eksik olan Add,Update,Delete,GetById gibi servis metodları kodlandı ve proje revize edildi.
+// Günün sonunda Engin hocanın kampının 12. videosu ödev olarak bırakıldı.
+// Fakat bu ödev sisteme işlenmyecek. Bir sonraki ders için hazırlık niteliğinde olacak.
