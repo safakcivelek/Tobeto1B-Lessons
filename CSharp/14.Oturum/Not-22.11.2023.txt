@@ -1,0 +1,2 @@
+// 14. oturumda pair olarak TobetoCourseAcademy adlı proje üzerinde Kamp eğitiminin 12. videosunu Engin hoca tekrarladı.
+// Daha sonra pair olarak kampın 12. videosu üzerinde tekrar çalışması yapıldı.
