@@ -1,6 +1,7 @@
 using Application;
 using Microsoft.Extensions.Configuration;
 using System.Reflection;
+using Persistence;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -10,6 +11,7 @@ builder.Services.AddControllers();
 
 //Application servis kayýtlarý metodu.
 builder.Services.AddApplicationServices();
+builder.Services.AddPersistenceServices(builder.Configuration);
 
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
