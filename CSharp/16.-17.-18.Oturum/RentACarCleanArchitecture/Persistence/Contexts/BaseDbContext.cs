@@ -13,9 +13,11 @@ namespace Persistence.Contexts
     {
         public BaseDbContext(DbContextOptions dbContextOptions, IConfiguration configuration) : base(dbContextOptions)
         {
-            Configuration = configuration; Database.EnsureCreated();
+            Configuration = configuration;
+            Database.EnsureCreated();
         }
         protected IConfiguration Configuration { get; set; }
         public DbSet<Brand> Brands { get; set; }
+        
     }
 }
